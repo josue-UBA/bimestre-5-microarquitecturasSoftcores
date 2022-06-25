@@ -1,0 +1,10 @@
+02:40:54 **** Incremental Build of configuration Debug for project xgpio_example_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 59123 C:/Users/josue/Desktop/asd/plataforma/export/plataforma/plataforma.xpfm standalone_domain C:/Users/josue/Desktop/asd/xgpio_example_1_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/josue/Desktop/asd/plataforma/export/plataforma/plataforma.xpfm --sys_config plataforma --bif C:/Users/josue/Desktop/asd/xgpio_example_1_system/Debug/system.bif --bitstream C:/Users/josue/Desktop/asd/xgpio_example_1/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/josue/Desktop/asd/xgpio_example_1/Debug/xgpio_example_1.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/josue/Desktop/asd/xgpio_example_1/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2020.2/bin/bootgen  -image C:/Users/josue/Desktop/asd/xgpio_example_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+02:41:08 Build Finished (took 14s.109ms)
+

@@ -1,0 +1,10 @@
+18:37:35 **** Build of configuration Debug for project mem_test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 56967 C:/Users/josue/Desktop/asd/system_wrapper_hw_platform_0/export/system_wrapper_hw_platform_0/system_wrapper_hw_platform_0.xpfm standalone_domain C:/Users/josue/Desktop/asd/mem_test_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/josue/Desktop/asd/system_wrapper_hw_platform_0/export/system_wrapper_hw_platform_0/system_wrapper_hw_platform_0.xpfm --sys_config system_wrapper_hw_platform_0 --bif C:/Users/josue/Desktop/asd/mem_test_system/Debug/system.bif --bitstream C:/Users/josue/Desktop/asd/mem_test/_ide/bitstream/system_wrapper.bit --elf C:/Users/josue/Desktop/asd/mem_test/Debug/mem_test.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/josue/Desktop/asd/mem_test/_ide/bitstream/system_wrapper.bit
+Running C:/Xilinx/Vitis/2020.2/bin/bootgen  -image C:/Users/josue/Desktop/asd/mem_test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+18:37:48 Build Finished (took 13s.83ms)
+
